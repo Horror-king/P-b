@@ -50,10 +50,10 @@ try {
 const DEFAULT_VERIFY_TOKEN = "Hassan";
 if (!bots.some(bot => bot.id === "default-bot")) {
   bots.push({
-    id: "default-bot",
+    id: "23926875990311589",
     verifyToken: DEFAULT_VERIFY_TOKEN,
-    pageAccessToken: "DUMMY_TOKEN",
-    geminiKey: "DUMMY_KEY"
+    pageAccessToken: "EAFUBXeZC8wqUBO60G40IBSscAZAhhSaQasr32NdUfy5V3Nb3FC2cBOfQymEHCySkoZCaGsvfV9U2HPu7TZARQ7OUqcFJaDq0xpuUzoZBBq5iLtR9ec3LnH7ZBZAZBFmpQKewZALckUvSSZAeGpirEP2P8zz8y3BrJE3eyu84wO60OHQzUZAAL5cYuGMnFvtHKSnZCohQZCLpCvo3xqEZCxuhkQ0ZCBfhgZCl4EecnvZAKZAF4ZD",
+    geminiKey: "AIzaSyCtUBTS9SNg76eJWRquvKRm9Xuj-rJso68"
   });
   saveBots(); // Save the default bot
 }
